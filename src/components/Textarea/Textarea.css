@@ -1,0 +1,23 @@
+.text-catFact {
+  display: inline-table;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(107, 21, 81);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  border: none;
+  overflow: hidden;
+  height: 100px;
+  resize: none;
+  overflow-y: scroll;
+  max-width: 1000px;
+  min-width: 200px;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+.text-catFact:focus {
+  outline: none;
+}

@@ -1,0 +1,17 @@
+.agify-form__input {
+  margin-bottom: 20px;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(223, 124, 215);
+  margin-right: 20px;
+  background: transparent;
+  transform: skew(-10deg);
+  color: rgb(190, 44, 178);
+}
+.agify-form__input::placeholder {
+  color: rgb(190, 44, 178);
+}
+

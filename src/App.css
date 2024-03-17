@@ -1,0 +1,59 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  background: url('assets/background.jpg') 90% 50%;
+  padding: 50px;
+  border-radius: 40px;
+  min-height: 500px;
+  box-shadow: rgba(49, 49, 50, 0.05) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.app-buttons {
+  display: flex;
+  align-items: center;
+  place-content: space-between space-evenly;
+  margin-top: 50px;
+}
+
+.app-button {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight:600;
+  width: 7em;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(207, 81, 245, 0.651);
+  transition: 0.5s;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.084) 0px 25px 20px -20px;
+  width: 200px;
+  height: 50px;
+  transform: skew(-25deg);
+}
+
+.app-button:hover {
+  box-shadow: rgba(52, 52, 53, 0.447) 0px 20px 30px -10px;
+  transition: 0.5s;
+  font-size: 30px;
+
+}
+
+.title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 25px;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+}
+
+@media screen and (max-width: 650px){
+  .app-buttons {
+    flex-flow: column;
+  }
+}

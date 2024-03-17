@@ -1,0 +1,33 @@
+button {
+  cursor: pointer;
+}
+
+.cat-fact__button {
+  background-color: rgb(255, 162, 227);
+  width: 100px;
+  height: 80px;
+  border-radius: 50px 50px 100px 100px;
+  border: 3px solid rgb(213, 116, 184);
+  color: rgb(107, 21, 81);
+  font-size: 23px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.agify-form__button {
+  border-radius: 10px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  width: 100px;
+  background-color: rgba(207, 81, 245, 0.651);
+  transition: 0.5s;
+}
+
+.agify-form__button:hover {
+  background-color: rgba(144, 40, 176, 0.651);
+  transition: 0.5s;
+}

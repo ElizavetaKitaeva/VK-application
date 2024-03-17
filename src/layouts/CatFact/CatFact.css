@@ -1,0 +1,14 @@
+.cat-facts__block {
+  width: 100%;
+  display: block;
+  flex-flow: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(238, 238, 238, 0.324);
+  border-radius: 100px 100px 50px 50px;
+  box-sizing: border-box;
+  max-width: 50em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
